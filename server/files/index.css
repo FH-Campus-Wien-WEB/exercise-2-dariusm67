@@ -1,0 +1,57 @@
+@import url(base.css);
+
+/* Teacher's skeleton requirements */
+h1 {
+  font-size: 200%;
+  margin: 8px 0px;
+  text-align: center;
+}
+
+article {
+  background-color: #e0e0e0;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 16px;
+  
+  margin: 20px 0;
+  width: 100%;
+  max-width: none;
+  box-sizing: border-box;
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4); 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: all 0.3s ease; /* Smooth hover */
+}
+
+/* Your custom hover effect */
+img:hover {
+  transform: translateY(-5px);
+}
+
+/* Your custom cursive font for the Plot */
+p {
+  font-family: "Brush Script MT", cursive;
+  font-size: 1.4rem;
+}
+
+.genre {
+  padding: 4px 10px;
+  border: solid #daaa00 1px;
+  border-radius: 15px;
+  background-color: #ffd700;
+  font-weight: bold;
+  display: inline-block;
+  margin: 5px;
+}
+
+li {
+  background-color: lightgray;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  list-style-type: none; /* Makes it look cleaner */
+}
